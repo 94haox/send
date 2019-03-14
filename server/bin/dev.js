@@ -23,7 +23,7 @@ module.exports = function(app, devServer) {
       .toString()
       .replace(
         '<base href="file:///android_asset/" />',
-        '<base href="http://localhost:8080/" />'
+        '<base href="http://localhost:1111/" />'
       );
     res.set('Content-Type', 'text/html');
     res.send(index);
